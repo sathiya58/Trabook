@@ -14,10 +14,7 @@
 </head>
 
 <body>
-  <!-- header section -->
-  
-    
-    <section class="hero-section">
+    <!-- header section -->
       <div class="hero-background">
         <div class="hero-content">
           <header class="header-container">
@@ -56,175 +53,46 @@
                 </div>
               </div>
               <div class="hero-image-column">
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee81b01d973cad4a1491f72fa17c9443e2e618c46f3264d2eebf3aea74a8d12?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" class="hero-image" alt="Exciting travel destination" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee81b01d973cad4a1491f72fa17c9443e2e618c46f3264d2eebf3aea74a8d12?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" class="hero-image" alt="Exciting journey illustration" />
               </div>
             </div>
           </main>
-          <style>
-            .search-container {
-              border-radius: 10px;
-              max-width: 841px;
-              padding: 32px 24px;
-              background-color: #fff;
-              box-shadow: 0 2px 80px 2px rgba(0, 0, 0, 0.06);
-            }
-            
-            .search-form {
-              display: flex;
-              gap: 20px;
-            }
-            
-            .search-fields {
-              display: flex;
-              flex-direction: column;
-              width: 76%;
-              font-family: Poppins, sans-serif;
-            }
-            
-            .search-inputs {
-              display: flex;
-              max-width: 100%;
-              gap: 20px;
-              font-size: 16px;
-              color: #222;
-              font-weight: 500;
-              flex-wrap: wrap;
-              justify-content: space-between;
-            }
-            
-            .input-group {
-              display: flex;
-              gap: 4px;
-            }
-            
-            .input-label {
-              flex-grow: 1;
-            }
-            
-            .input-icon {
-              aspect-ratio: 1.72;
-              width: 12px;
-              stroke: #fa7436;
-              stroke-width: 2px;
-            }
-            
-            .search-hints {
-              display: flex;
-              margin-top: 10px;
-              gap: 40px 100px;
-              font-size: 12px;
-              color: #666;
-              font-weight: 400;
-              flex-wrap: wrap;
-            }
-            
-            .hint-text {
-              flex-grow: 1;
-              width: 106px;
-            }
-            
-            .explore-button {
-              width: 24%;
-              margin-left: 20px;
-            }
-            
-            .explore-btn {
-              width: 100%;
-              padding: 14px 28px;
-              border-radius: 5px;
-              background-color: #fa7436;
-              box-shadow: 0 8px 16px 0 rgba(250, 116, 54, 0.16);
-              color: #fff;
-              font: 500 18px/32px Poppins, sans-serif;
-              border: none;
-              cursor: pointer;
-            }
-            
-            @media (max-width: 991px) {
-              .search-container {
-                padding: 0 20px;
-              }
-            
-              .search-form {
-                flex-direction: column;
-                align-items: stretch;
-                gap: 0;
-              }
-            
-              .search-fields {
-                width: 100%;
-                margin-top: 40px;
-              }
-            
-              .search-inputs {
-                white-space: initial;
-              }
-            
-              .search-hints {
-                max-width: 100%;
-              }
-            
-              .explore-button {
-                width: 100%;
-                margin-left: 0;
-              }
-            
-              .explore-btn {
-                margin-top: 40px;
-                padding: 14px 20px;
-              }
-            }
-            
-            .visually-hidden {
-              position: absolute;
-              width: 1px;
-              height: 1px;
-              padding: 0;
-              margin: -1px;
-              overflow: hidden;
-              clip: rect(0, 0, 0, 0);
-              white-space: nowrap;
-              border: 0;
-            }
-            </style>
-            
-            <section class="search-container">
-              <form class="search-form" action="#" method="get">
-                <div class="search-fields">
-                  <div class="search-inputs">
-                    <div class="input-group">
-                      <label for="location" class="visually-hidden">Location</label>
-                      <input type="text" id="location" class="input-label" placeholder="Location" aria-label="Location">
-                      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/534adf36bdbcab6058efacc44a7fd989a3303626e34e09b4294fcd060b0842d2?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" alt="" class="input-icon" aria-hidden="true">
+          <div class="search-container">
+            <div class="search-content">
+              <div class="search-fields-column">
+                <form class="search-fields-wrapper">
+                  <div class="search-fields">
+                    <div class="search-field">
+                      <label for="location" class="search-label">Location</label>
+                      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/534adf36bdbcab6058efacc44a7fd989a3303626e34e09b4294fcd060b0842d2?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" class="search-icon" alt="" />
                     </div>
-                    <div class="input-group">
-                      <label for="date" class="visually-hidden">Date</label>
-                      <input type="date" id="date" class="input-label" placeholder="Date" aria-label="Date">
-                      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/534adf36bdbcab6058efacc44a7fd989a3303626e34e09b4294fcd060b0842d2?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" alt="" class="input-icon" aria-hidden="true">
+                    <div class="search-field">
+                      <label for="date" class="search-label">Date</label>
+                      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/534adf36bdbcab6058efacc44a7fd989a3303626e34e09b4294fcd060b0842d2?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" class="search-icon" alt="" />
                     </div>
-                    <div class="input-group">
-                      <label for="guests" class="visually-hidden">Number of guests</label>
-                      <input type="number" id="guests" class="input-label" placeholder="Guest" aria-label="Number of guests">
-                      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/534adf36bdbcab6058efacc44a7fd989a3303626e34e09b4294fcd060b0842d2?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" alt="" class="input-icon" aria-hidden="true">
+                    <div class="search-field">
+                      <label for="guest" class="search-label">Guest</label>
+                      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/534adf36bdbcab6058efacc44a7fd989a3303626e34e09b4294fcd060b0842d2?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" class="search-icon" alt="" />
                     </div>
                   </div>
-                  <div class="search-hints">
-                    <span class="hint-text">Where are you going</span>
-                    <span class="hint-text">When you will go</span>
-                    <span class="hint-text">Number of guests</span>
+                  <div class="search-placeholders">
+                    <input type="text" id="location" class="search-placeholder" placeholder="Where are you going" aria-label="Where are you going" />
+                    <input type="date" id="date" class="search-placeholder" placeholder="When you will go" aria-label="When you will go" />
+                    <input type="number" id="guest" class="search-placeholder" placeholder="Number of guest" aria-label="Number of guest" />
                   </div>
-                </div>
-                <div class="explore-button">
-                  <button type="submit" class="explore-btn">Explore Now</button>
-                </div>
-              </form>
-            </section>
-
+                </form>
+              </div>
+              <div class="explore-column">
+                <button class="explore-btn">Explore Now</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+
+
 
 <!-- things section -->
 
@@ -518,9 +386,13 @@
             </nav>
           </div>
         </div>
+        
       </section>
 
 <!-- footer section -->
+  
+  
+
   
   <footer class="footer">
     <section class="newsletter-bg">
@@ -547,8 +419,8 @@
             <div class="footer-column">
               <div class="footer-logo-section">
                 <div class="logo-wrapper">
-                  <span class="logo-text">Trabook</span></div>
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/902ca2bc5764b1f9bce2dfa075a02331e461c2108d12098b9ac104de9926ca96?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" class="logo-icon" alt="Trabook logo icon" />
+                  <span class="logo-text">Trabook</span>
+                  <!-- <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/902ca2bc5764b1f9bce2dfa075a02331e461c2108d12098b9ac104de9926ca96?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" class="logo-icon" alt="Trabook logo icon" /> -->
                 </div>
                 <p class="footer-description">
                   Book your trip in minute, get full<br />
@@ -557,7 +429,7 @@
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4b695106f0a4e61086a7e40085f7267ba7e1d4df34391745e606c6f0789725c4?placeholderIfAbsent=true&apiKey=bd943c8bb56f4205824267187cb87d3d" class="social-icons" alt="Social media icons" />
               </div>
             </div>
-            <nav class="footer-nav-column"></nav>
+            <nav class="footer-nav-column">
               <ul class="footer-nav">
                 <li><h3 class="footer-nav-title">Company</h3></li>
                 <li class="footer-nav-item"><a href="#">About</a></li>
@@ -592,6 +464,5 @@
       </div>
     </div>
   </footer>
-
-</body>
-</html>
+  </body>
+  </html>
